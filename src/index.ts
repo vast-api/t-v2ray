@@ -1,5 +1,6 @@
 export { default as V2RayConf } from "../types/v2ray-conf";
 export { default as V2RayProtocol } from "../types/v2ray-protocol";
+export { default as V2RayNQR } from "../types/v2ray-n";
 export {
   default as V2RayTransport,
   V2RayStreamSettings,
