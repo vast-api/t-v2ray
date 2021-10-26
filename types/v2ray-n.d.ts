@@ -1,6 +1,6 @@
 declare namespace V2RayNQR {
   type Security = "aes-128-gcm" | "chacha20-poly1305" | "auto" | "none";
-  type Net = "tcp" | "kcp" | "ws" | "h2" | "quic";
+  type Net = "tcp" | "kcp" | "ws" | "http" | "h2" | "quic";
   type Type = "none" | "http" | "srtp" | "utp" | "wechat-video";
 }
 
