@@ -1,6 +1,6 @@
 {
   "name": "@vast-api/t-v2ray",
-  "version": "4.34.0",
+  "version": "4.34.1",
   "description": "types and utils to help you build v2ray config",
   "main": "dist/index.js",
   "repository": "git@github.com:vast-api/t-v2ray.git",
