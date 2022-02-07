@@ -69,7 +69,7 @@ declare namespace V2RayProtocol {
     }
   }
   interface ShadowsocksOutbound {
-    servers: ShadowsocksOutbound.Server;
+    servers: ShadowsocksOutbound.Server[];
   }
   namespace SocksInbound {
     interface Account {
