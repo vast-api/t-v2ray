@@ -62,7 +62,7 @@ declare namespace V2RayProtocol {
     interface Server {
       email?: string;
       address: string;
-      port: string;
+      port: number;
       method: Shadowsocks.Method;
       password: string;
       level?: number;
