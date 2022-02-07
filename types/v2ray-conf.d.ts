@@ -94,7 +94,7 @@ declare namespace V2RayConf {
     }
     interface Sniffing {
       enabled: boolean;
-      destOverride: Sniffing.OverrideProtocol;
+      destOverride: Sniffing.OverrideProtocol[];
     }
     interface Allocate {
       strategy: "always" | "random";
